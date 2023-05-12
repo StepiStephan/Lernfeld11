@@ -1,0 +1,533 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="VierGewinnt.FourInARowUI">
+  <grid id="27dc6" binding="mainFrame" layout-manager="GridLayoutManager" row-count="8" column-count="7" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="1114" height="416"/>
+    </constraints>
+    <properties>
+      <preferredSize width="500" height="500"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="ca8da" class="javax.swing.JTextArea" binding="tAr5c1">
+        <constraints>
+          <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="50" height="50"/>
+          </grid>
+        </constraints>
+        <properties>
+          <enabled value="false"/>
+        </properties>
+      </component>
+      <component id="902f0" class="javax.swing.JTextArea" binding="tAr5c7">
+        <constraints>
+          <grid row="6" column="6" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="50" height="50"/>
+          </grid>
+        </constraints>
+        <properties>
+          <enabled value="false"/>
+        </properties>
+      </component>
+      <component id="63876" class="javax.swing.JButton" binding="btReset">
+        <constraints>
+          <grid row="7" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Reset"/>
+        </properties>
+      </component>
+      <component id="5006" class="javax.swing.JTextArea" binding="tAr5c6">
+        <constraints>
+          <grid row="6" column="5" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="50" height="50"/>
+          </grid>
+        </constraints>
+        <properties>
+          <enabled value="false"/>
+        </properties>
+      </component>
+      <component id="79f3b" class="javax.swing.JTextArea" binding="tAr5c2">
+        <constraints>
+          <grid row="6" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="50" height="50"/>
+          </grid>
+        </constraints>
+        <properties>
+          <enabled value="false"/>
+        </properties>
+      </component>
+      <component id="da61d" class="javax.swing.JLabel" binding="winner">
+        <constraints>
+          <grid row="7" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="82f6e" class="javax.swing.JTextArea" binding="tAr5c3">
+        <constraints>
+          <grid row="6" column="2" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="50" height="50"/>
+          </grid>
+        </constraints>
+        <properties>
+          <enabled value="false"/>
+        </properties>
+      </component>
+      <component id="e5cb0" class="javax.swing.JTextArea" binding="tAr5c4">
+        <constraints>
+          <grid row="6" column="3" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="50" height="50"/>
+          </grid>
+        </constraints>
+        <properties>
+          <enabled value="false"/>
+        </properties>
+      </component>
+      <component id="290a2" class="javax.swing.JTextArea" binding="tAr5c5">
+        <constraints>
+          <grid row="6" column="4" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="50" height="50"/>
+          </grid>
+        </constraints>
+        <properties>
+          <enabled value="false"/>
+        </properties>
+      </component>
+      <component id="aa08" class="javax.swing.JTextArea" binding="tAr4c6">
+        <constraints>
+          <grid row="5" column="5" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="50" height="50"/>
+          </grid>
+        </constraints>
+        <properties>
+          <enabled value="false"/>
+        </properties>
+      </component>
+      <component id="225a3" class="javax.swing.JTextArea" binding="tAr3c6">
+        <constraints>
+          <grid row="4" column="5" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="50" height="50"/>
+          </grid>
+        </constraints>
+        <properties>
+          <enabled value="false"/>
+        </properties>
+      </component>
+      <component id="3e311" class="javax.swing.JTextArea" binding="tAr0c6">
+        <constraints>
+          <grid row="1" column="5" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="50" height="50"/>
+          </grid>
+        </constraints>
+        <properties>
+          <enabled value="false"/>
+        </properties>
+      </component>
+      <component id="a228f" class="javax.swing.JTextArea" binding="tAr2c6">
+        <constraints>
+          <grid row="3" column="5" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="50" height="50"/>
+          </grid>
+        </constraints>
+        <properties>
+          <enabled value="false"/>
+        </properties>
+      </component>
+      <component id="6704d" class="javax.swing.JTextArea" binding="tAr1c6">
+        <constraints>
+          <grid row="2" column="5" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="50" height="50"/>
+          </grid>
+        </constraints>
+        <properties>
+          <enabled value="false"/>
+        </properties>
+      </component>
+      <component id="a9f1e" class="javax.swing.JTextArea" binding="tAr4c7">
+        <constraints>
+          <grid row="5" column="6" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="50" height="50"/>
+          </grid>
+        </constraints>
+        <properties>
+          <enabled value="false"/>
+        </properties>
+      </component>
+      <component id="a01f9" class="javax.swing.JTextArea" binding="tAr3c7">
+        <constraints>
+          <grid row="4" column="6" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="50" height="50"/>
+          </grid>
+        </constraints>
+        <properties>
+          <enabled value="false"/>
+        </properties>
+      </component>
+      <component id="ef634" class="javax.swing.JTextArea" binding="tAr2c7">
+        <constraints>
+          <grid row="3" column="6" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="50" height="50"/>
+          </grid>
+        </constraints>
+        <properties>
+          <enabled value="false"/>
+        </properties>
+      </component>
+      <component id="b5145" class="javax.swing.JTextArea" binding="tAr1c7">
+        <constraints>
+          <grid row="2" column="6" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="50" height="50"/>
+          </grid>
+        </constraints>
+        <properties>
+          <enabled value="false"/>
+        </properties>
+      </component>
+      <component id="10f27" class="javax.swing.JTextArea" binding="tAr0c7">
+        <constraints>
+          <grid row="1" column="6" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="50" height="50"/>
+          </grid>
+        </constraints>
+        <properties>
+          <enabled value="false"/>
+        </properties>
+      </component>
+      <component id="f782d" class="javax.swing.JTextArea" binding="tAr1c1">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="50" height="50"/>
+          </grid>
+        </constraints>
+        <properties>
+          <enabled value="false"/>
+        </properties>
+      </component>
+      <component id="fd502" class="javax.swing.JTextArea" binding="tAr2c1">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="50" height="50"/>
+          </grid>
+        </constraints>
+        <properties>
+          <enabled value="false"/>
+        </properties>
+      </component>
+      <component id="28a26" class="javax.swing.JTextArea" binding="tAr3c1">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="50" height="50"/>
+          </grid>
+        </constraints>
+        <properties>
+          <enabled value="false"/>
+        </properties>
+      </component>
+      <component id="d670d" class="javax.swing.JTextArea" binding="tAr4c1">
+        <constraints>
+          <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="50" height="50"/>
+          </grid>
+        </constraints>
+        <properties>
+          <enabled value="false"/>
+        </properties>
+      </component>
+      <component id="a90ac" class="javax.swing.JTextArea" binding="tAr4c2">
+        <constraints>
+          <grid row="5" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="50" height="50"/>
+          </grid>
+        </constraints>
+        <properties>
+          <enabled value="false"/>
+        </properties>
+      </component>
+      <component id="f3c2d" class="javax.swing.JTextArea" binding="tAr3c2">
+        <constraints>
+          <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="50" height="50"/>
+          </grid>
+        </constraints>
+        <properties>
+          <enabled value="false"/>
+        </properties>
+      </component>
+      <component id="cf3a" class="javax.swing.JTextArea" binding="tAr2c2">
+        <constraints>
+          <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="50" height="50"/>
+          </grid>
+        </constraints>
+        <properties>
+          <enabled value="false"/>
+        </properties>
+      </component>
+      <component id="bcf77" class="javax.swing.JTextArea" binding="tAr1c2">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="50" height="50"/>
+          </grid>
+        </constraints>
+        <properties>
+          <enabled value="false"/>
+        </properties>
+      </component>
+      <component id="2e576" class="javax.swing.JTextArea" binding="tAr0c2">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="50" height="50"/>
+          </grid>
+        </constraints>
+        <properties>
+          <enabled value="false"/>
+        </properties>
+      </component>
+      <component id="7ac50" class="javax.swing.JTextArea" binding="tAr0c3">
+        <constraints>
+          <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="50" height="50"/>
+          </grid>
+        </constraints>
+        <properties>
+          <enabled value="false"/>
+        </properties>
+      </component>
+      <component id="47067" class="javax.swing.JTextArea" binding="tAr1c3">
+        <constraints>
+          <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="50" height="50"/>
+          </grid>
+        </constraints>
+        <properties>
+          <enabled value="false"/>
+        </properties>
+      </component>
+      <component id="9eec" class="javax.swing.JTextArea" binding="tAr2c3">
+        <constraints>
+          <grid row="3" column="2" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="50" height="50"/>
+          </grid>
+        </constraints>
+        <properties>
+          <enabled value="false"/>
+        </properties>
+      </component>
+      <component id="eb848" class="javax.swing.JTextArea" binding="tAr3c3">
+        <constraints>
+          <grid row="4" column="2" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="50" height="50"/>
+          </grid>
+        </constraints>
+        <properties>
+          <enabled value="false"/>
+        </properties>
+      </component>
+      <component id="f49fd" class="javax.swing.JTextArea" binding="tAr4c3">
+        <constraints>
+          <grid row="5" column="2" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="50" height="50"/>
+          </grid>
+        </constraints>
+        <properties>
+          <enabled value="false"/>
+        </properties>
+      </component>
+      <component id="4e6a7" class="javax.swing.JTextArea" binding="tAr0c4">
+        <constraints>
+          <grid row="1" column="3" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="50" height="50"/>
+          </grid>
+        </constraints>
+        <properties>
+          <enabled value="false"/>
+        </properties>
+      </component>
+      <component id="5cdf9" class="javax.swing.JTextArea" binding="tAr1c4">
+        <constraints>
+          <grid row="2" column="3" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="50" height="50"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="e0b24" class="javax.swing.JTextArea" binding="tAr2c4">
+        <constraints>
+          <grid row="3" column="3" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="50" height="50"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="7197b" class="javax.swing.JTextArea" binding="tAr3c4">
+        <constraints>
+          <grid row="4" column="3" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="50" height="50"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="8c178" class="javax.swing.JTextArea" binding="tAr4c4">
+        <constraints>
+          <grid row="5" column="3" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="50" height="50"/>
+          </grid>
+        </constraints>
+        <properties>
+          <enabled value="false"/>
+        </properties>
+      </component>
+      <component id="c9169" class="javax.swing.JTextArea" binding="tAr0c5">
+        <constraints>
+          <grid row="1" column="4" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="50" height="50"/>
+          </grid>
+        </constraints>
+        <properties>
+          <enabled value="false"/>
+        </properties>
+      </component>
+      <component id="87ea5" class="javax.swing.JTextArea" binding="tAr1c5">
+        <constraints>
+          <grid row="2" column="4" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="50" height="50"/>
+          </grid>
+        </constraints>
+        <properties>
+          <enabled value="false"/>
+        </properties>
+      </component>
+      <component id="d8734" class="javax.swing.JTextArea" binding="tAr2c5">
+        <constraints>
+          <grid row="3" column="4" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="50" height="50"/>
+          </grid>
+        </constraints>
+        <properties>
+          <enabled value="false"/>
+        </properties>
+      </component>
+      <component id="e8803" class="javax.swing.JTextArea" binding="tAr3c5">
+        <constraints>
+          <grid row="4" column="4" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="50" height="50"/>
+          </grid>
+        </constraints>
+        <properties>
+          <enabled value="false"/>
+        </properties>
+      </component>
+      <component id="2f29" class="javax.swing.JTextArea" binding="tAr4c5">
+        <constraints>
+          <grid row="5" column="4" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="50" height="50"/>
+          </grid>
+        </constraints>
+        <properties>
+          <enabled value="false"/>
+        </properties>
+      </component>
+      <component id="2c281" class="javax.swing.JButton" binding="btC1">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Col1"/>
+        </properties>
+      </component>
+      <component id="17ce1" class="javax.swing.JButton" binding="btC2">
+        <constraints>
+          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Col2"/>
+        </properties>
+      </component>
+      <component id="f85f7" class="javax.swing.JButton" binding="btC3">
+        <constraints>
+          <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Col3"/>
+        </properties>
+      </component>
+      <component id="fbc17" class="javax.swing.JButton" binding="btC4">
+        <constraints>
+          <grid row="0" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Col4"/>
+        </properties>
+      </component>
+      <component id="2544a" class="javax.swing.JButton" binding="btC5">
+        <constraints>
+          <grid row="0" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Col5"/>
+        </properties>
+      </component>
+      <component id="26cb9" class="javax.swing.JButton" binding="btC6">
+        <constraints>
+          <grid row="0" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Col6"/>
+        </properties>
+      </component>
+      <component id="ee249" class="javax.swing.JButton" binding="btC7">
+        <constraints>
+          <grid row="0" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Col7"/>
+        </properties>
+      </component>
+      <component id="513a0" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="7" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="50" height="16"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="Gewinner:"/>
+        </properties>
+      </component>
+      <component id="a633" class="javax.swing.JTextArea" binding="tAr0c1">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="50" height="50"/>
+          </grid>
+        </constraints>
+        <properties>
+          <enabled value="false"/>
+        </properties>
+      </component>
+      <component id="e3f0c" class="javax.swing.JRadioButton" binding="rbComPlayer">
+        <constraints>
+          <grid row="7" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="ComputerPlayer"/>
+        </properties>
+      </component>
+      <component id="83484" class="javax.swing.JComboBox" binding="cbLevel">
+        <constraints>
+          <grid row="7" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <enabled value="false"/>
+          <model>
+            <item value="EASY"/>
+            <item value="MEDIUM"/>
+            <item value="HARD"/>
+            <item value="VERY HARD"/>
+          </model>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
